@@ -1,1 +1,35 @@
-Hello, World!
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            position: relative; /* Define o corpo como relativo para posicionar elementos absolutos dentro dele */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #171C20;
+        }
+
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .soon {
+            font-size: 32px;
+            color: rgba(255, 255, 255, 0.1);
+            position: absolute; /* Define o texto como absoluto */
+            top: calc(50% + 130px); /* Centraliza verticalmente e ajusta para 200px abaixo do centro */
+        }
+    </style>
+</head>
+<body>
+    <img src="logo.png" alt="Droivox Logo" class="logo">
+    <p class="soon">Soon</p>
+</body>
+</html>
