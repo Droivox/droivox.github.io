@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1759712834|1067922068';
+const CACHE_VERSION = '1759713106|15526869';
 /** @type {string} */
 const CACHE_PREFIX = 'Toon Shader-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
