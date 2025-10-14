@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1760064077|9771426316';
+const CACHE_VERSION = '1760468456|9774090155';
 /** @type {string} */
 const CACHE_PREFIX = 'Web Chat Client-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
